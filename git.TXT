@@ -14,3 +14,15 @@ cd c:\~~~
 git clone https://github.com/kklck/hello-world.git
 
 // .git 폴더는 숨김 표시
+
+//정확한 파일 지정을 위해 디렉토리 이동
+cd hello-world
+
+//스테이지에 등록
+git add git.TXT
+
+//형상 버전 관리 위한 작업 및 설명 추가 (-m : 메시지 추가)
+git commit -m "텍스트 파일 추가 : git.txt"
+
+//스테이지에 올려둔 파일 저장소에 저장
+git push
