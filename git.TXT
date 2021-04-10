@@ -1,0 +1,16 @@
+//깃 버전
+git --version
+
+//유저네임 연동
+git config --global user.name kklck
+
+//이메일 연동
+git config --global user.email asdf5574@naver.com
+
+//디렉토리 이동
+cd c:\~~~
+
+//다운로드
+git clone https://github.com/kklck/hello-world.git
+
+// .git 폴더는 숨김 표시
